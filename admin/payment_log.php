@@ -18,18 +18,19 @@ $url    = sprintf('https://%s%s', $_SERVER['SERVER_NAME'], $folder); /* used for
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title><?=$Company?> - Secure Payment Log</title>
-    <meta name="description" content="<?=$Company?> - Secure Payment Log">
+    <title><?=$Company?> - Secure Purchase Log</title>
+    <meta name="description" content="<?=$Company?> - Secure Purchase Log">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
     <!-- Le styles -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
       body {
+				background:url(../img/stucco.png);
         padding-top: 60px;
         padding-bottom: 40px;
       }
@@ -55,7 +56,7 @@ $url    = sprintf('https://%s%s', $_SERVER['SERVER_NAME'], $folder); /* used for
 
       <div class="well">
         <div class="row">
-          <div class="span3"> <img src="../img/<?=$Logo?>" /></div>
+          <div class="span3"> <img src="<?=$Logo?>" /></div>
           <div class="span8">
             <h1><?=$Company?></h1>
             <h2>Secure Payment Log</h2>
@@ -116,7 +117,7 @@ $url    = sprintf('https://%s%s', $_SERVER['SERVER_NAME'], $folder); /* used for
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
 
 <script type="text/javascript">
