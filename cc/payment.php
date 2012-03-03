@@ -223,7 +223,5 @@ body {
 </div>
 <!--/container-fluid-->
 
-</head>
-
 </body>
 </html>
