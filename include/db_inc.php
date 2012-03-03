@@ -21,6 +21,8 @@ $WebUrl         = "http://mycompany.com";
 $Phone          = "(800) 555-1212";
 $Email          = "sales@mycompany.com";
 $Logo           = "logo.jpg";
+//Secure payment.php link normally "https://mycompany.com/cc/payment.php";
+$payment="https://mycompany.com/cc/payment.php";
 //Where to send debug messages
 $AdminEmail = "webmaster@mycompany.com";
 //Stripe Keys
