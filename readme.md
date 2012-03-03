@@ -57,7 +57,7 @@ http://git-scm.com  - git version control system
 http://ie6update.com - Display an appropriate error to IE6 users
 https://gist.github.com/1885001 - IE6 patch for Bootstrap
 http://subtlepatterns.com - background image
-Stack overflow - Saved me from crazy errror <button type="submit" id="submit"> to <button type="submit" id="submit-button">
+Stack overflow - Saved me from crazy errror type="submit" id="submit" to type="submit" id="submit-button"
 http://stackoverflow.com/questions/2718799/unable-to-submit-an-html-form-after-intercepting-the-submit-with-javascript
 http://jscompress.com - minify javascript
 http://www.willpeavy.com/minifier - html minifier
