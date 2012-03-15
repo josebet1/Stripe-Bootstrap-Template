@@ -15,7 +15,7 @@ $password       = "verystrongpw";
 $dbname         = "databasename";
 $usertable      = "payments";
 //Define your company
-$Company        = "Sample Compnay, Inc"; 
+$Company        = "Sample Company, Inc"; 
 $WebSite        = "www.mycompany.com";
 $WebUrl         = "http://mycompany.com";
 $Phone          = "(800) 555-1212";
