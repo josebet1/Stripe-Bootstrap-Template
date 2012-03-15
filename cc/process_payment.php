@@ -65,7 +65,7 @@
 																					zip, phone, email, ipaddress, testmode) 
 										VALUES (NOW(), '".$client_number."',".$amount.",".$fee.",'".$ch->id."','".$card_name."',
 																				'".$card_address1."','".$card_address2."','".$card_city."','".$card_address_state."',
-																				'".$card_address_zip."','".$card_phone."','".$card_email."','".$ipaddr."',".$testmode.")";
+																				'".$card_address_zip."','".$card_phone."','".$card_email."','".$ipaddr."',".intval($testmode).")";
 		
 		mail ($AdminEmail, $Company."Stripe Database Debug Log", $query_dblog); //Send Log for debug - DB insert not working in live mode. 
 			
