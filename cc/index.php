@@ -6,8 +6,8 @@ if ($using_old_ie) {
 	$payment = $WebUrl;
 	$redirect_text = "Sorry, Interner Explorer 6 is not supported for secure payments. Please <a href='http://microsoft.com/ie'>upgrade</a> your browser to IE8+ (<a href='http://google.com/chrome'>Chrome</a> or <a href='http://getfirefox.com'>Firefox</a> preferred). Redirecting to our home page.";
 } else {
-	$redirect_text = "Redirecting to NLAW secure site";
-	header('location: <?=$payment?>'); 
+	$redirect_text = "Redirecting to ".$Company." secure site";
+	header('location: '$payment); 
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
